@@ -22,7 +22,7 @@ class Stack{
 	public int pop(){
 		if(top!=-1){
 			int tp=stack[top];
-			stack[top]=-1;
+			top-=1;
 			return tp;
 		}
 		else{
